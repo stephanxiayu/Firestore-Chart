@@ -40,7 +40,7 @@ class _NewMessageWidgetState extends State<NewMessageWidget> {
                 enableSuggestions: true,
                 decoration: InputDecoration(
                   filled: true,
-                  fillColor: Colors.grey[100],
+                  fillColor: Colors.black,
                   labelText: 'Type your message',
                   border: OutlineInputBorder(
                     borderSide: BorderSide(width: 0),
@@ -60,9 +60,9 @@ class _NewMessageWidgetState extends State<NewMessageWidget> {
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.blue,
+                  color: Colors.black,
                 ),
-                child: Icon(Icons.send, color: Colors.white),
+                child: Icon(Icons.send, color: Colors.grey),
               ),
             ),
           ],
